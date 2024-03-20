@@ -1,0 +1,31 @@
+.footer{
+     /* background-image: url('/assets/images/b1.jpg');  */
+    background-position: center;
+    background-size: cover;
+    background-color: #041e42;
+}
+.text-color{
+    color:gray;
+}
+.text-yelo{
+    color: #ffbd27;
+}
+.footer-txt{
+    text-decoration: none;
+}
+.footer-txt:hover{
+    text-decoration:underline;
+}
+.foot-icon i:hover {
+    background-color: grey;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+  
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.text-body{
+    text-decoration: none;
+}

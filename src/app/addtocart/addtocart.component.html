@@ -1,0 +1,57 @@
+<div class="container my-4">
+    <h1 class="text-info fs-2 fw-light">SHOPPING CART</h1>
+    <table class="table shadow">
+        <thead class=" table-secondary text-center">
+          <tr class="py-4">
+            <th scope="col">#</th>
+            <th scope="col">Product Image</th>
+            <th scope="col">Product Name</th>
+            <th scope="col"> Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Deliverry Charges</th>
+            <th scope="col">SubTotal</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <th scope="row">1</th>
+            <td><img src="/assets/images/home-img-1.png" alt="" width="50%" height="80px"></td>
+            <td>Inifnix Note 8</td>
+            <td>30,000</td>
+            <td>1</td>
+            <td>200</td>
+            <td>30,200</td>
+            <td><button class="btn btn-outline-info">Checkout</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">2</th>
+            <td><img src="/assets/images/home-img-3.png" alt="" width="50%" height="80px"></td>
+            <td>WireLess Headphone</td>
+            <td>3000</td>
+            <td>1</td>
+            <td>200</td>
+            <td>3,200</td>
+            <td><button class="btn btn-outline-info">Checkout</button></td>
+          </tr>
+    
+           <tr>
+            <th scope="row">3</th>
+            <td><img src="/assets/images/home-img-2.png" alt="" width="50%" height="80px"></td>
+            <td>Rado watch</td>
+            <td>12000</td>
+            <td>1</td>
+            <td>200</td>
+            <td>12,200</td>
+            <td><button class="btn btn-outline-info">Checkout</button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button class="btn btn-info" (click)="continueShopping()">Continue Shopping<i class="fa-sharp fa-solid fa-arrow-right-from-bracket ms-2 mt-2"></i></button></td>
+            <td></td><td></td><td></td><td></td><td></td>
+            <td><button class="btn btn-info">Clear Shopping Cart</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>

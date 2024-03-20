@@ -1,0 +1,54 @@
+.login-bg{
+    background-image: url('/assets/images/login-bg1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.9;
+    color: #fff;
+    padding: 18px;
+}
+.register{
+    border: 1px solid #fff;
+    color:aqua;
+    border-radius: 8px;
+    padding: 10.7px;
+    margin: 0;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;
+}
+.register:hover{
+    color:blue;
+    background-color: #fff;
+}
+/* .login{
+    border: 1px solid #fff;
+    color:aqua;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0;
+    cursor: pointer;
+     width: 80px;
+}
+.login:hover{
+    color:blue;
+    background-color: #fff;
+} */
+.login-h1{
+    /* background: linear-gradient(skyblue,purple);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; */
+    color: aqua;
+    font-size: 55px; 
+}
+.login-btn{
+    color:aqua;
+    cursor: pointer;
+}
+.login-btn:hover{
+    text-decoration: underline;
+}
+/* .form-label{
+    color: aqua;
+} */

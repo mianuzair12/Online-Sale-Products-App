@@ -1,0 +1,10 @@
+.brands{
+    border:  1px solid #cce7d0;
+    min-height: 150px;
+    cursor: pointer;
+}
+.brands h6{
+    font-size: 18px;
+    color: #088178;
+    background-color: #fddde4;
+}

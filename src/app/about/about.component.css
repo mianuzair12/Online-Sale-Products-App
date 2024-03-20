@@ -1,0 +1,22 @@
+.about-bg{
+    background-image: url('/assets/images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.about-bg > h1,p{
+    text-align: center;
+    color: #fff;
+}
+.about-bg h1{
+    /* padding-top: 7%; */
+}
+.text{
+    text-decoration:dotted;
+    color: black;
+    text-align: left;
+}
+
